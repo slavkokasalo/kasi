@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Domaće životinje</title>
+</head>
+
+<!-- kroz JS treba povećati slova na 1.5rem -->
+<!-- kroz JS slike treba smanjiti na 300px  -->
+
+<body>
+
+
+
+    <!-- prvi naslov -->
+    <section class="prva">
+
+        
+<h1>Domaće životinje</h1>
+
+<!-- prvi paragraf -->
+<p id="slavko">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Restatis igitur vos; Nunc vides, quid faciat. Confecta res esset.
+   Equidem e Cn. </p>
+
+   <!-- umjesto gornjeg teksta ide ovaj tekst ali kroz JS-->
+
+   <!-- Domaće životinje su one životinje koje čovjek pripitomljava
+i uzgaja radi koristi i razonode, a koje i same imaju koristi od takve
+trajne zajednice sa čovjekom jer su zaštićene u borbi za opstanak.
+Da bi se neka životinja smatrala domaćom, potrebno je ispuniti tri
+uvjeta. Prvi je uvjet da životinja posjeduje osobine koje su čovjeku korisne,
+drugi da je privržena i poslušna čovjeku i treći da se jedinke
+redovito razmnožavaju pod čovjekovim nadzorom -->
+
+
+<!-- drugi paragraf -->
+<h2>Magarac</h2>
+<img src="images/magarac.jpg" alt="magarac">
+<p id="david">Erat enim Polemonis. Nam ista vestra: Si gravis, brevis; Nam Pyrrho, 
+Aristo, Erillus iam diu abiecti. Illi enim inter se dissentiunt. Quis est 
+tam dissimile homini. Summus dolor plures dies manere non potest? </p>
+
+<!-- umjesto gornjeg teksta ide ovaj tekst ali kroz JS -->
+
+
+<!-- Magarac kakvog danas poznamo potječe od divljih predaka
+iz Afrike, nubijskog i somalijskog divljeg magarca. Nubijski divlji   magarac potječe s područja Sjeverne Afrike (današnje Eritreje), a somalijski
+divlji magarac s juga Eritreje i sjeverne Somalije. Magarac je
+udomaćen prije osam tisuća godina. U trećem tisućljeću pr.Kr. magarci se
+šire Azijom, a ratovi i trgovina, posebno ‹›put svile››, dovode magarce i na
+područje Europe, najvjerovatnije prije tri do četiri tisuće godina prije kris -->
+
+    </section>
+
+
+
+
+
+
+    <!-- drugi naslov -->
+
+<section class="druga">
+    <h2>Krava</h2>
+    <img id="krava" onmouseover="this.src='images/krava2.jpg'" onmouseout="this.src='images/krava.jpg'" src="images/krava.jpg" alt="krava">
+    <p id="sani">Nam, ut sint illa vendibiliora, haec uberiora certe sunt. Sed videbimus. 
+    Hos contra singulos dici est melius. Dicimus aliquem hilare vivere; Cur, 
+    nisi quod turpis oratio est? Quid dubitas igitur mutare 
+    principia naturae? </p>
+</section>
+
+<!-- kada je miš na gornjoj slici prikazuje se slika krava2.jpg a 
+kada nije krava.jpg  -->
+
+
+<!-- umjesto gornjeg teksta ide ovaj tekst ali kroz JS -->
+
+
+<!-- Domaćim govedom, često jednostavno samo govedom, nazivaju se domesticirani
+potomci divljeg goveda (Bos taurus). Domesticiranje je počelo
+prvo radi mesa, a kasnije radi mlijeka i njihove snage korištene
+za vuču. -->
+
+
+
+
+
+<!-- treći naslov -->
+
+<section class="prva">
+    <h2>Ovca</h2>
+  
+    
+    <img src="images/ovca.jpg" alt=" Ovca">
+<ul>
+      <li>Koja je ovo zivotinja<input type="text" id="noun"></li>
+   
+    </ul>
+     
+    <button id="lib-button">posalji</button>
+      
+    <p>
+    <span id="story"></span>
+    </p>
+
+
+  
+    <p id="jaja">Quid Zeno? Haec dicuntur fortasse ieiunius; Quae duo sunt, unum facit. Res enim concurrent contrariae.</a> </p>
+    </section>
+   
+
+<!-- ovdje treba nestati gornji tekst i treba se pojaviti label s ulaznom 
+formom i buttnom.
+
+-kada korisnik upiše riječ ovca i stisne buttno pojavi se poruka 
+"pogodili ste koja je životinja na slici"
+-kada upiše bilo koji tekst osim ovce i stisne button pojavi se poruka
+"pogriješili ste životinju" -->
+
+
+
+        <!-- četvrti naslov -->
+    
+    <section class="druga">
+        <h2>Konj</h2>
+        <img  src="images/konj.jpg" onclick="audio.play()"  alt=" konj">
+        <p id="jaopet"  onclick="change_text()">Nam, ut sint illa vendibiliora, haec uberiora certe sunt. Sed videbimus. 
+        Hos contra singulos dici est melius. Dicimus aliquem hilare vivere; Cur, 
+        nisi quod turpis oratio est? Quid dubitas igitur mutare 
+        principia naturae? </p>
+    </section>
+    
+
+
+<!-- kada se klikne na sliku treba se pokrenuti audio datoteka
+zvukkonja.mp3   -->
+
+<!-- također treba nestati gornji tekst i pojaviti se sljedeći  
+
+
+
+"Domaći konj (konj, lat. Equus (Equus) caballus; sin. Equus ferus 
+ caballus, Equus caballus caballus, Equus caballus) je veliki četveronožni 
+ sisavac, pripadnik roda Equus. Konji su odavno bili jedna od najvažnijih 
+ domaćih životinja  koja se 
+uzgaja u vrlo velikom broju raznih pasmina, a živi širom svijeta.
+
+ -->
+
+
+    
+
+
+  <script src=index.js>
+document.getElementById("slavko").innerHTML="Change Text";
+
+ 
+  </script>
+</body>
+</html>
