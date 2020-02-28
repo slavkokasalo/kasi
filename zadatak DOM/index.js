@@ -25,7 +25,7 @@ function imgOut (id) {
 }
 
 
-var audio = new Audio("file:///H:/zadatak%20DOM/zvukkonja.mp3" ) ;
+var audio = new Audio("zvukkonja.mp3" ) ;
 
 document.getElementById("jaopet").onclick = function() {change_text()};
 function change_text() {
